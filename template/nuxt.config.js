@@ -25,6 +25,17 @@ module.exports = {
   */
   css: ['@/assets/css/main.css'],
   /*
+    ** Load Plugins
+    */
+   plugins: [
+    { src: '~plugins/cq.js', ssr: false },
+    { src: '~plugins/bowser.js', ssr: false }
+  ],
+
+  modules: [
+    '@nuxtjs/axios'
+  ],
+  /*
   ** This option is given directly to the vue-router Router constructor
   */
   router: {
@@ -43,6 +54,7 @@ module.exports = {
     ** Extract CSS
     */
     extractCSS: true,
+    vendor: ['cq-prolyfill', 'bowser'],
     /*
     ** Run ESLint on save
     */

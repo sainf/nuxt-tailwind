@@ -14,20 +14,36 @@
   },
   "dependencies": {
     "nuxt": "^1.4.0",
-    "tailwindcss": "^0.5.3"
+    "@nuxtjs/axios": "^5.3.1",
+    "tailwindcss": "^0.5.3",
+    "bowser": "^1.9.3",
+    "cq-prolyfill": "^0.4.0",
+    "lazysizes": "^3.0.0",
+    "svgxuse": "^1.2.1"
   },
   "devDependencies": {
     "babel-eslint": "^8.2.3",
+    "babel-7-jest": "^21.3.3",
+    "babel-jest": "^22.4.3",
     "eslint": "^4.19.1",
     "eslint-friendly-formatter": "^4.0.1",
     "eslint-loader": "^2.0.0",
     "eslint-plugin-vue": "^4.5.0",
     "postcss-cssnext": "^3.1.0",
+    "postcss-assets": "^5.0.0",
     "postcss-import": "^11.1.0",
     "postcss-loader": "^2.1.5",
     "postcss-url": "^7.3.2",
     "purgecss": "^0.20.0",
     "purgecss-webpack-plugin": "^0.22.1",
-    "glob-all": "^3.1.0"
+    "glob-all": "^3.1.0",
+    "cssnano": "^3.10.0",
+    "jest": "^22.3.0",
+    "jest-vue-preprocessor": "^1.4.0",
+    "node-sass": "^4.8.3",
+    "rucksack-css": "^1.0.2",
+    "sass-loader": "^6.0.7",
+    "vue-jest": "^2.5.0",
+    "@vue/test-utils": "^1.0.0-beta.14"
   }
 }
